@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contenerdorGeneral {
+    width: 80vw;
+    margin: 2% auto;
+}
+
+.hijosNavbar {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: rgba(139, 0, 139, 0.719);
+    border-radius: 10px;
+    padding: 5px;
+    list-style: none;
+    font-size: 10rem;
+}
+
+
+.hijosNavbar___titulos {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.contanedorPantalla {
+    margin: 5% 0 0 0;
+}
+
+.contenedorFlechas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+    
+.contenedorFlechas__figura {
+    width: 30%;
+    height: 40px;
+    clip-path: polygon(86% 0, 100% 50%, 89% 98%, 0% 100%, 0 54%, 0% 0%);
+}
+
+.contenedorFlechas__figura-text{
+    margin: 0.3rem 0 0 4rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+.contenedorFlechas__figuraGray {
+    background-color: gray;
+}
+
+.contenedorFlechas__figura-1 {
+    background: linear-gradient(to right, #20002c, #cbb4d4);
+}
+
+
+.contenedorFleclas__figura-2 {
+    background: linear-gradient(to right, #6190e8, #a7bfe8);
+}
+
+.contenedorFlechas__figura-3 {
+    background: linear-gradient(to right, #200122, #6f0000);
+}
+
+.contenedorCentral{
+    width: 100%;
+    height: 200px;
+    margin: 5% 0 0 0;
+    outline: 1px solid black;
+}
+
+.contenedorCentral__text{
+    font-size: 2rem;
+    margin: 20px auto;
+}
