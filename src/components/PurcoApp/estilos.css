@@ -81,3 +81,12 @@
     font-size: 2rem;
     margin: 20px auto;
 }
+
+.contendorComboBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.selector{
+    width: 20%;
+}
